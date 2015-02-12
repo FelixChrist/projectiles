@@ -1,3 +1,4 @@
+'''Entry point of program'''
 import pygame
 import projectile
 import slider
