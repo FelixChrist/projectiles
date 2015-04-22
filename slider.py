@@ -42,8 +42,8 @@ class slider:
 		textpos.centerx = self.pos1[0]
 		textpos.centery = self.pos1[1]-140
 		screen.blit(text, textpos)
-		pygame.draw.line(screen,WHITE,(self.pos1[0],self.pos1[1]),(self.pos1[0],self.pos1[1]-100),5)
-		pygame.draw.line(screen,WHITE,(self.pos1[0]-5,self.pos2[1]),(self.pos1[0]+5,self.pos2[1]),5)
+		pygame.draw.line(screen,BLACK,(self.pos1[0],self.pos1[1]),(self.pos1[0],self.pos1[1]-100),5)
+		pygame.draw.line(screen,BLACK,(self.pos1[0]-5,self.pos2[1]),(self.pos1[0]+5,self.pos2[1]),5)
 		
 
 	def getvalue(self,value):
